@@ -1,4 +1,4 @@
 # Default is "World"
-#Author: Jonathan Smith (jsmith@email.com)
+#Author: Jonathan Smith
 name = ARGV.first || "World"
-puts "Hello, #{name}!"
+puts "Hello, #{ARGV.first}!"
